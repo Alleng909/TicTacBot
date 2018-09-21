@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3E66B1F2152F1DD00E21F33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E66B1E2152F1DD00E21F33 /* main.cpp */; };
+		C3E66B272152F2C800E21F33 /* TicBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E66B252152F2C800E21F33 /* TicBoard.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C3E66B1B2152F1DD00E21F33 /* TicTacBot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacBot; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E66B1E2152F1DD00E21F33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C3E66B252152F2C800E21F33 /* TicBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicBoard.cpp; sourceTree = "<group>"; };
+		C3E66B262152F2C800E21F33 /* TicBoard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TicBoard.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C3E66B1E2152F1DD00E21F33 /* main.cpp */,
+				C3E66B252152F2C800E21F33 /* TicBoard.cpp */,
+				C3E66B262152F2C800E21F33 /* TicBoard.hpp */,
 			);
 			path = TicTacBot;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E66B1F2152F1DD00E21F33 /* main.cpp in Sources */,
+				C3E66B272152F2C800E21F33 /* TicBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
