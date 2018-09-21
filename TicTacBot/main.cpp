@@ -8,8 +8,13 @@
 
 #include <iostream>
 
+#include "TicBoard.hpp"
+
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Starting Game!\n";
+    
+    TicBoard() 
+    
     return 0;
 }
