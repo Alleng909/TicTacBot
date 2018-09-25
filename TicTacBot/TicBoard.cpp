@@ -37,7 +37,7 @@ bool TicBoard::checkWin() { //Will probably be more efficient in the future if I
 std::string TicBoard::getBoardString() {
     std::string returnMe;
     for(int i = 0; i < 9; i++) {
-        returnMe+= board[i];
+        returnMe+= std::to_string(board[i]);
     }
     
     
@@ -49,16 +49,21 @@ void TicBoard::printBoard() {
         for(int j = 0; j < 3; j++) {
             switch(board[3*i+j]) {
                 case 1: std::cout << "X ";
+                    break;
                 case -1: std::cout << "O ";
-                default: std::cout << "  ";
+                    break;
+                case 0: std::cout << "- ";
+                    break;
+                default: std::cout << "ERROR ";
             }
         }
-        std::cout << "\n";
+        std::cout << std::endl;
     }
 }
 
 bool TicBoard::pickSpot(int i) {
     if (i < 0 || i > 9 || board[i] != 0) {
+        std::cout << "Error in selecting: " << i << std::endl;
         return false;
     }
     board[i]+= (turn%2)*2-1; //Means Turn 1 will be marked with a 1, turn 2 with -1, etc...
