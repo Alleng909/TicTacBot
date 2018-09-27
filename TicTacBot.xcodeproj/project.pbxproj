@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35E9992215D5F780037A6A3 /* TicBot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35E9990215D5F780037A6A3 /* TicBot.cpp */; };
+		C35E9995215D83300037A6A3 /* TicNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35E9993215D83300037A6A3 /* TicNode.cpp */; };
 		C3E66B1F2152F1DD00E21F33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E66B1E2152F1DD00E21F33 /* main.cpp */; };
 		C3E66B272152F2C800E21F33 /* TicBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E66B252152F2C800E21F33 /* TicBoard.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C35E9990215D5F780037A6A3 /* TicBot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicBot.cpp; sourceTree = "<group>"; };
+		C35E9991215D5F780037A6A3 /* TicBot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TicBot.hpp; sourceTree = "<group>"; };
+		C35E9993215D83300037A6A3 /* TicNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicNode.cpp; sourceTree = "<group>"; };
+		C35E9994215D83300037A6A3 /* TicNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TicNode.hpp; sourceTree = "<group>"; };
 		C3E66B1B2152F1DD00E21F33 /* TicTacBot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacBot; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E66B1E2152F1DD00E21F33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C3E66B252152F2C800E21F33 /* TicBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicBoard.cpp; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 				C3E66B1E2152F1DD00E21F33 /* main.cpp */,
 				C3E66B252152F2C800E21F33 /* TicBoard.cpp */,
 				C3E66B262152F2C800E21F33 /* TicBoard.hpp */,
+				C35E9990215D5F780037A6A3 /* TicBot.cpp */,
+				C35E9991215D5F780037A6A3 /* TicBot.hpp */,
+				C35E9993215D83300037A6A3 /* TicNode.cpp */,
+				C35E9994215D83300037A6A3 /* TicNode.hpp */,
 			);
 			path = TicTacBot;
 			sourceTree = "<group>";
@@ -125,6 +135,8 @@
 			files = (
 				C3E66B1F2152F1DD00E21F33 /* main.cpp in Sources */,
 				C3E66B272152F2C800E21F33 /* TicBoard.cpp in Sources */,
+				C35E9995215D83300037A6A3 /* TicNode.cpp in Sources */,
+				C35E9992215D5F780037A6A3 /* TicBot.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

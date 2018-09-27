@@ -17,7 +17,11 @@ int main(int argc, const char * argv[]) {
     
     bool goodChoice = false;
     
-    while (!game->checkWin()) {//Note: Ends game but doesn't say who won, and doesn't resolve ties.
+    while (!game->checkWin()) {//Note: Ends game but doesn't say who won.
+        if (game->getTurn() == 10) {
+            std::cout << "There was a tie.\n";
+            break;
+        }
         while(!goodChoice) { //2 human player option. Current code only for taking one correct input.
             game->printBoard();
             int playerInput;
