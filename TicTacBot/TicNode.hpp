@@ -12,6 +12,12 @@
 #include <string>
 
 class TicNode {
+private:
+    double external[9]; //Inputs
+    double internal;   //Calculated output
+public:
+    double getValue();
+    void give(double value, int location);
     
     
     
